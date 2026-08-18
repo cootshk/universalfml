@@ -28,7 +28,7 @@ public enum Dist {
      * <p>
      * Note that {@code @Mod.EventBusSubscriber(Dist.CLIENT)} works on 1.8-1.12, however
      * {@code @Mod.EventBusSubscriber(Dist.DEDICATED_SERVER)} does not.
-     * <p>
+     *
      * @deprecated because this will crash the game on 1.8-1.12.
      */
     @AvailableAfter(MinecraftVersion.V1_13)

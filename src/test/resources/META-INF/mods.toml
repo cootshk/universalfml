@@ -1,0 +1,13 @@
+# 1.8-1.12 loads mcmod.info instead.
+modLoader = "javafml"
+loaderVersion = "[25,)"
+license = "CC0-1.0"
+
+[[mods]]
+modId = "universalfmltest"
+version = "1.0.0"
+displayName = "UniversalFML Test"
+description = '''
+simple test mod
+'''
+

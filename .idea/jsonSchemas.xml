@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="Minecraft Data Pack Metadata">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Minecraft Data Pack Metadata" />
+              <option name="relativePathToSchema" value="https://www.schemastore.org/minecraft-pack-mcmeta.json" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/test/resources/META-INF/pack.mcmeta" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>

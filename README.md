@@ -27,7 +27,7 @@ Allows creating Forge mods for 1.8-1.12 and 1.13+ in the same `@Mod` class.
     }
     ```
 3. Use `@Mod`
-    See the [test mod]() as an example.
+    See the [test mod](src/test/java/dev/cootshk/universalfml/test/TestMod.java) as an example.
 
 
 > [!CAUTION]

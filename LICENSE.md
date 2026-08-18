@@ -1,4 +1,4 @@
 This code is distributed under the same license as MinecraftForge, which can be found [here](https://github.com/MinecraftForge/MinecraftForge/blob/f0f144156b5c8d7ccbe358772e9e33b57d849d5e/LICENSE.txt).
 At the time of writing, this is the LGPLv2.1.
 
-The test mod (everything in [src/test](src/test)) is licensed under the CCO-1.0, which can be found [here](https://creativecommons.org/publicdomain/zero/1.0/).
+The test mod (everything in [src/test](src/test)) is licensed under the CC0-1.0, which can be found [here](https://creativecommons.org/publicdomain/zero/1.0/).

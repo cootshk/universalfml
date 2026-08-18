@@ -1,0 +1,36 @@
+# universalfml
+
+Allows creating Forge mods for 1.8-1.12 and 1.13+ in the same `@Mod` class.
+
+## Usage
+
+1. Add the Modrinth Maven repository
+    ```kt
+    repositories {
+        exclusiveContent {
+            forRepository {
+                maven {
+                    name = "Modrinth"
+                    url = "https://api.modrinth.com/maven"
+                }
+            }
+            filter {
+                includeGroup("maven.modrinth")
+            }
+        }
+    }
+    ```
+2. Include it as a **compile-only dependency**
+    ```kt
+    dependencies {
+        compileOnly("maven.modrinth:universalfml:1.0.0")
+    }
+    ```
+3. Use `@Mod`
+    See the [test mod]() as an example.
+
+
+> [!CAUTION]
+> If you are building for both 1.8-1.12 and 1.13+, you will have to specify the mod ID twice.
+> 
+> Additionally, Dist.DEDICATED_SERVER will crash the game on 1.8–1.12 (Dist.CLIENT is okay).

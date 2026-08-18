@@ -19,7 +19,7 @@ public enum Dist {
      * <p>
      * Note that {@code @Mod.EventBusSubscriber(Dist.CLIENT)} works on 1.8-1.12, however
      * {@code @Mod.EventBusSubscriber(Dist.DEDICATED_SERVER)} does not. */
-    @AvailableAfter(MinecraftVersion.V1_7) // note: This will still work on 1.8-1.12
+    @AvailableAfter(MinecraftVersion.V1_8) // note: This will still work on 1.8-1.12
     CLIENT,
     /**
      * The dedicated server distribution. This is the server only distribution available for

@@ -46,7 +46,7 @@ public @interface Mod {
     Dist[] dist() default { Dist.CLIENT, Dist.DEDICATED_SERVER };
 
     // ------------------------------------------------------------------
-    // Minecraft 1.7 - 1.12
+    // Minecraft 1.8 - 1.12
     // ------------------------------------------------------------------
 
     /**
@@ -201,8 +201,6 @@ public @interface Mod {
 
     /**
      * A custom key => value property pair for use with {@link Mod#customProperties()}
-     * @author cpw
-     *
      */
     @AvailableBefore(MinecraftVersion.V1_12)
     @Retention(RetentionPolicy.RUNTIME)

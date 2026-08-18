@@ -2,7 +2,6 @@ package dev.cootshk.universalfml;
 
 @SuppressWarnings("unused")
 public enum MinecraftVersion {
-    V1_7,
     V1_8,
     V1_9,
     V1_10,
